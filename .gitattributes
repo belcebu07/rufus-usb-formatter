@@ -1,0 +1,10 @@
+# Language detection rules
+dist/* linguist-vendored
+*.ico binary
+src/**/*.astro linguist-detectable
+*.html linguist-vendored
+*.yml linguist-detectable=false
+*.astro linguist-detectable
+*.min.css linguist-generated
+*.gif binary
+go.sum linguist-generated
